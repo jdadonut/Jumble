@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jumble", "Jumble\Jumble.csproj", "{1DEC2BD6-4955-4F9B-A931-8CB0AF326EBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jumble.Extensions.InviteTracker", "Jumble.Extensions.InviteTracker\Jumble.Extensions.InviteTracker.csproj", "{9D977346-386E-467A-AE96-F9E7A5268CB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jumble.Util", "Jumble.Util\Jumble.Util.csproj", "{C1431ED9-917B-4057-9C3A-87D41DCABD3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jumble.Tests", "Jumble.Tests\Jumble.Tests.csproj", "{F822F5F3-0DC6-4C4C-B826-E4AD70130325}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jumble.Extensions.Musically", "Jumble.Extensions.Musically\Jumble.Extensions.Musically.csproj", "{7EDC9710-D844-4F0D-8254-100B79E5D4F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1DEC2BD6-4955-4F9B-A931-8CB0AF326EBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DEC2BD6-4955-4F9B-A931-8CB0AF326EBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DEC2BD6-4955-4F9B-A931-8CB0AF326EBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DEC2BD6-4955-4F9B-A931-8CB0AF326EBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D977346-386E-467A-AE96-F9E7A5268CB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D977346-386E-467A-AE96-F9E7A5268CB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D977346-386E-467A-AE96-F9E7A5268CB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D977346-386E-467A-AE96-F9E7A5268CB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1431ED9-917B-4057-9C3A-87D41DCABD3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1431ED9-917B-4057-9C3A-87D41DCABD3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1431ED9-917B-4057-9C3A-87D41DCABD3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1431ED9-917B-4057-9C3A-87D41DCABD3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F822F5F3-0DC6-4C4C-B826-E4AD70130325}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F822F5F3-0DC6-4C4C-B826-E4AD70130325}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F822F5F3-0DC6-4C4C-B826-E4AD70130325}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F822F5F3-0DC6-4C4C-B826-E4AD70130325}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EDC9710-D844-4F0D-8254-100B79E5D4F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EDC9710-D844-4F0D-8254-100B79E5D4F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EDC9710-D844-4F0D-8254-100B79E5D4F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EDC9710-D844-4F0D-8254-100B79E5D4F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

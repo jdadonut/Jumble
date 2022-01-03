@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="DSharpPlus" Version="4.2.0-nightly-01054" />
+      <PackageReference Include="DSharpPlus.CommandsNext" Version="4.2.0-nightly-01054" />
+      <PackageReference Include="Microsoft.Extensions.Configuration" Version="6.0.0" />
+      <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="6.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Jumble.Extensions.InviteTracker\Jumble.Extensions.InviteTracker.csproj" />
+    </ItemGroup>
+
+</Project>
