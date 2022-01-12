@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jumble.Tests", "Jumble.Test
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jumble.Extensions.Musically", "Jumble.Extensions.Musically\Jumble.Extensions.Musically.csproj", "{7EDC9710-D844-4F0D-8254-100B79E5D4F5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jumble.Extensions.RaidProtection", "Jumble.Extensions.RaidProtection\Jumble.Extensions.RaidProtection.csproj", "{380863A1-D483-4BE5-87E7-14901390DFD5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{7EDC9710-D844-4F0D-8254-100B79E5D4F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7EDC9710-D844-4F0D-8254-100B79E5D4F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7EDC9710-D844-4F0D-8254-100B79E5D4F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{380863A1-D483-4BE5-87E7-14901390DFD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{380863A1-D483-4BE5-87E7-14901390DFD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{380863A1-D483-4BE5-87E7-14901390DFD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{380863A1-D483-4BE5-87E7-14901390DFD5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

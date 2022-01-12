@@ -20,11 +20,15 @@ namespace Jumble.Extensions.Musically
             new SqliteCommand("CREATE TABLE IF NOT EXISTS Queues (GuildId TEXT, Volume INTEGER)", ConfigDb).ExecuteNonQuery();
         }
         
-        public void AddToQueue(ulong guildId, IVideo video)
+        public void AddToQueue(ulong guildId, ulong? channelId, DiscordClient? client, IVideo video)
         {
             // if guild not exists in db, create it with a volume of 1.00 (100%)
             if (!Queues.ContainsKey(guildId))
             {
+                if (channelId == null || client == null)
+                {
+                    
+                }
                 Queues.Add(guildId, new List<IVideo>());
                 Controllers.Add(guildId, new AudioController());
                 new SqliteCommand($"INSERT INTO Queues (GuildId, Volume) VALUES ({guildId}, 1.00)", ConfigDb).Parameters.AddWithValue("@guildId", guildId);

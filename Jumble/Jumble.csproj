@@ -8,10 +8,12 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="DSharpPlus" Version="4.2.0-nightly-01054" />
-      <PackageReference Include="DSharpPlus.CommandsNext" Version="4.2.0-nightly-01054" />
+      <PackageReference Include="DSharpPlus" Version="4.2.0-nightly-01056" />
+      <PackageReference Include="DSharpPlus.CommandsNext" Version="4.2.0-nightly-01056" />
       <PackageReference Include="Microsoft.Extensions.Configuration" Version="6.0.0" />
       <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="6.0.0" />
+      <PackageReference Include="Starciad.DSharpPlus.Interactivity.Paginated" Version="1.0.2" />
+      <PackageReference Include="TenorSharp" Version="1.6.1" />
     </ItemGroup>
 
     <ItemGroup>

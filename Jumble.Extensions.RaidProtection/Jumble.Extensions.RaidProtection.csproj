@@ -4,18 +4,11 @@
         <TargetFramework>net6.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <RootNamespace>Jumble.ReactionRoles</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
       <PackageReference Include="DSharpPlus" Version="4.2.0-nightly-01056" />
-      <PackageReference Include="DSharpPlus.CommandsNext" Version="4.2.0-nightly-01056" />
-      <PackageReference Include="DSharpPlus.Interactivity" Version="4.2.0-nightly-01056" />
       <PackageReference Include="Microsoft.Data.Sqlite" Version="6.0.1" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <ProjectReference Include="..\Jumble.Util\Jumble.Util.csproj" />
     </ItemGroup>
 
 </Project>
